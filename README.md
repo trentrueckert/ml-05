@@ -28,26 +28,9 @@ py -m venv .venv
 .\.venv\Scripts\activate
 py -m pip install --upgrade pip setuptools wheel
 py -m pip install -r requirements.txt
-py -m pip install -r requirements.txt
 
 ```
----
 
-## Mac/Linux Setup Instructions
-
-Open a default terminal in VS Code. 
-Create local project virtual environment, activate it, and install packages. 
-Important: Install from requirements first with scikit-learn commented out. 
-Then remove the leading hashmark (around line 187) and re-run the command to install scikit-learn.
-See requirements.txt for more information. 
-
-```zsh
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install --upgrade pip setuptools wheel
-python3 -m pip install -r requirements.txt
-python3 -m pip install -r requirements.txt
-```
 ---
 
 ## Tell VS Code to use .venv
